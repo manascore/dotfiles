@@ -1,0 +1,25 @@
+set nocompatible
+set clipboard=unnamed
+syntax on
+filetype plugin indent on	"highlights syntax based on  the extention of the file
+set relativenumber
+
+" enable mouse scrolling
+set mouse=a
+
+" Show line numbers
+set number
+set showcmd
+
+filetype on
+filetype plugin on
+filetype indent on
+
+set path+=**
+
+call plug#begin()
+  	Plug 'preservim/nerdtree'
+	Plug 'dylanaraps/wal.vim' "if pywal16 is installed
+call plug#end()
+
+colorscheme wal "if pywal16 is installed

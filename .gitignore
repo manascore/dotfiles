@@ -1,0 +1,16 @@
+/pulse
+/procps
+/mozilla
+/htop
+/go
+/dconf
+/gtk-3.0
+/wal
+/wal-choose
+/yay
+
+
+vim/plugged 
+vim/.netrwhist
+zsh/.zcompdump*
+tmux/*.log
